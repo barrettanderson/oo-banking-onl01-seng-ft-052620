@@ -23,6 +23,6 @@ class Transfer
       self.status = "complete"
   end
 
-  
+
 
 end
