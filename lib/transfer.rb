@@ -20,7 +20,10 @@ class Transfer
     if valid? && sender.balance > amount
       sender.withdrawal(self.amount)
       receiver.deposit(self.amount)
-      # self.status = "complete"
+      self.status = "complete"
+    else
+      hmmm
+    end
   end
 
 
